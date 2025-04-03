@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unspoken Feelings</title>
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        .message {
+            font-size: 24px;
+            max-width: 80%;
+            margin: 20px auto;
+            line-height: 1.8;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        .rain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background: url('https://i.gifer.com/7sc6.gif') repeat;
+            opacity: 0.1;
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .fade-text {
+            opacity: 0;
+            animation: textFade 5s infinite alternate;
+        }
+        @keyframes textFade {
+            0% { opacity: 0.2; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="rain"></div>
+    <div class="message">
+        <p class="fade-text">Every night I drown in silent tears, yet you never notice...</p>
+        <p class="fade-text">I whisper 'I love you' into the void, hoping you'll hear...</p>
+        <p class="fade-text">My heart shatters every time you walk away without a word...</p>
+        <p class="fade-text">I wish I could turn back time to a moment when you cared...</p>
+        <p class="fade-text">Even in pain, I still choose to love you...</p>
+        <p class="fade-text">No matter how much I try, I remain invisible to your heart...</p>
+        <p class="fade-text">The silence between us speaks louder than any words ever could...</p>
+        <p class="fade-text">I hold onto memories because they are all I have left of you...</p>
+        <p class="fade-text">My love for you is like a candle in the storm, struggling to stay alight...</p>
+        <p class="fade-text">I wonder if you ever feel a fraction of what I feel for you...</p>
+        <p class="fade-text">I keep rereading our old messages, hoping to feel close to you again...</p>
+        <p class="fade-text">I watch you smile at others while my heart breaks in silence...</p>
+        <p class="fade-text">The pain of missing you is greater than the joy of loving you...</p>
+        <p class="fade-text">I pretend to be okay, but inside, I'm falling apart...</p>
+        <p class="fade-text">No matter how far you go, my heart will always wait for you...</p>
+        <p class="fade-text">You became my world, and now my world feels empty without you...</p>
+        <p class="fade-text">If love is a battle, then I'm fighting alone...</p>
+        <p class="fade-text">My love is a silent scream, unheard and unnoticed...</p>
+        <p class="fade-text">I gave you my heart, and you left it in pieces...</p>
+        <p class="fade-text">I am drowning in my own emotions, while you float away untouched...</p>
+        <p class="fade-text">I loved you beyond words, but you never looked deep enough to see it...</p>
+        <p class="fade-text">You were my reason to smile, now you're the reason for my tears...</p>
+        <p class="fade-text">I wish you could step into my heart to feel the storm you left behind...</p>
+        <p class="fade-text">I never knew loving someone could hurt this much...</p>
+        <p class="fade-text">You walked away, but my heart still follows you...</p>
+        <p class="fade-text">You taught me love, and then you taught me pain...</p>
+        <p class="fade-text">You became a stranger with all my secrets...</p>
+    </div>
+</body>
+</html>
